@@ -7,19 +7,12 @@ public class ticTackToeUC3 {
 	private char player1;
 	private char comp1;
 
-	/**
-	 * Function to create board
-	 * 
-	 */
 	private char[] createBoard() {
 		board = new char[10];
 		Arrays.fill(board, ' ');
 		return board;
 	}
 
-	/**
-	 * Assigning letter to the player as per their choice
-	 */
 	private void playerLetter() {
 		Scanner S1 = new Scanner(System.in);
 		System.out.println("type X or O as per your wish");
